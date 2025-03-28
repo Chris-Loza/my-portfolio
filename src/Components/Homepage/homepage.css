@@ -1,0 +1,13 @@
+.homepage {
+  display: flex;
+  width: 100vw;
+  height: 100svh;
+
+  .sidebarContainer {
+    flex: 1;
+  }
+
+  .contentContainer {
+    flex: 6;
+  }
+}
