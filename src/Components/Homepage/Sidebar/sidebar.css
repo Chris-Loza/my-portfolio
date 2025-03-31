@@ -11,6 +11,18 @@
     color: #eeeeee;
   }
 
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    width: 80%;
+
+    p {
+      padding-bottom: 0.25rem;
+    }
+  }
+
   .sidebar {
     display: flex;
     flex-direction: column;
@@ -38,9 +50,32 @@
       height: 100%;
       width: 100%;
 
+      .title {
+        flex: 1;
+        align-items: end;
+      }
+
       .categories {
+        flex: 12;
         display: flex;
         flex-direction: column;
+        width: 80%;
+        /* border: 1px solid white; */
+
+        .buttons {
+          /* border: 1px solid white; */
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+          justify-self: start;
+          margin-top: 1rem;
+          height: 40%;
+
+          a {
+            border: 1px solid olive;
+            height: 20%;
+          }
+        }
       }
     }
   }
@@ -64,9 +99,23 @@
     backdrop-filter: blur(10px);
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
 
+    .title {
+      flex: 1;
+      align-items: end;
+    }
+
     .links {
+      flex: 3;
       display: flex;
       flex-direction: column;
+      justify-content: space-evenly;
+      align-content: center;
+      /* border: 1px solid olive; */
+      width: 80%;
+
+      a {
+        border: 1px solid green;
+      }
     }
   }
 
@@ -88,5 +137,16 @@
     );
     backdrop-filter: blur(10px);
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
+
+    .textAndImageContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid white;
+      border-radius: 1rem;
+      width: 70%;
+      height: 50%;
+      gap: 0.5rem;
+    }
   }
 }
