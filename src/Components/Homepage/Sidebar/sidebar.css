@@ -9,14 +9,16 @@
 
   a {
     text-decoration: none;
-    color: #eeeeee;
+    /* color: #eeeeee; */
+    color: rgba(238, 238, 238, 0.875);
   }
 
   .title {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.75);
+    /* opacity: 0.875; */
     width: 80%;
 
     p {
@@ -31,7 +33,7 @@
     justify-content: center;
     /* border: 1px solid #eeeeee; */
     background-color: #31363f;
-    height: 60%;
+    height: 50%;
     width: 85%;
     border-radius: 1rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1);
@@ -52,7 +54,7 @@
       width: 100%;
 
       .title {
-        flex: 1;
+        flex: 1.25;
         align-items: end;
       }
 
@@ -70,15 +72,21 @@
           flex-direction: column;
           justify-self: start;
           margin-top: 1rem;
-          height: 40%;
+          height: 50%;
+          gap: 0.5rem;
 
           a {
-            border: 1px solid olive;
-            height: 20%;
+            /* border: 1px solid olive; */
+            height: 25%;
             display: flex;
             align-items: center;
-            padding-left: 1.5rem;
+            padding-left: 0.5rem;
+            gap: 0.5rem;
             /* justify-content: center; */
+
+            img {
+              width: 25px;
+            }
           }
         }
       }
@@ -92,7 +100,7 @@
     justify-content: center;
     /* border: 1px solid #eeeeee; */
     background-color: #31363f;
-    height: 20%;
+    height: 25%;
     width: 85%;
     border-radius: 1rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1);
@@ -110,7 +118,7 @@
     }
 
     .links {
-      flex: 3;
+      flex: 4;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -119,10 +127,16 @@
       width: 80%;
 
       a {
-        border: 1px solid green;
+        /* border: 1px solid green; */
         display: flex;
         align-items: center;
-        padding-left: 1.5rem;
+        padding-left: 0.5rem;
+        gap: 0.25rem;
+        height: 25%;
+      }
+
+      img {
+        width: 30px;
       }
     }
   }
@@ -150,11 +164,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border: 1px solid white;
+      border: 1px solid rgba(238, 238, 238, 0.75);
       border-radius: 1rem;
       width: 70%;
       height: 50%;
       gap: 0.5rem;
+      color: rgba(238, 238, 238, 0.875);
     }
   }
 }
