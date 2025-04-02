@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -7,10 +7,27 @@ const Sidebar = () => {
     button: "",
   });
 
+  const handleOnMouseMove = (e) => {
+    const { currentTarget: target } = e;
+    const rect = target.getBoundingClientRect(),
+      x = e.clientX - rect.left,
+      y = e.clientY - rect.top;
+
+    target.style.setProperty("--mouse-x", `${x}px`);
+    target.style.setProperty("--mouse-y", `${y}px`);
+  };
+
+  useEffect(() => {
+    const cursorElements = document.querySelectorAll(".cursorEff");
+    cursorElements.forEach((card) => {
+      card.addEventListener("mousemove", handleOnMouseMove);
+    });
+  }, []);
+
   return (
     <div className="sidebarMain">
       <div className="sidebar">
-        <div className="categoriesContainer">
+        <div className="categoriesContainer cursorEff">
           <div className="title">
             <p>Home</p>
           </div>
@@ -104,7 +121,7 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-      <div className="socials">
+      <div className="socials cursorEff">
         <div className="title">
           <p>Socials</p>
         </div>

@@ -41,13 +41,15 @@
     );
     backdrop-filter: blur(10px);
 
-    .categoriesContainer {
+    .categoriesContainer.cursorEff {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       height: 100%;
       width: 100%;
+      position: relative;
+      border-radius: 1rem;
 
       .title {
         flex: 1.25;
@@ -89,13 +91,36 @@
 
           a:hover {
             background-color: rgb(28, 32, 38);
+            transition: background-color 200ms;
           }
         }
       }
     }
+
+    .categoriesContainer.cursorEff::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: radial-gradient(
+        200px circle at var(--mouse-x) var(--mouse-y),
+        rgba(118, 171, 174, 0.25),
+        transparent 40%
+      );
+      border-radius: inherit;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 500ms;
+      z-index: -1;
+    }
+
+    .categoriesContainer.cursorEff:hover::before {
+      opacity: 1;
+    }
   }
 
-  .socials {
+  .socials.cursorEff {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,12 +162,35 @@
 
       a:hover {
         background-color: rgb(28, 32, 38);
+        transition: background-color 200ms;
       }
 
       img {
         width: 30px;
       }
     }
+  }
+
+  .socials.cursorEff::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: radial-gradient(
+      200px circle at var(--mouse-x) var(--mouse-y),
+      rgba(118, 171, 174, 0.25),
+      transparent 40%
+    );
+    border-radius: inherit;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 500ms;
+    z-index: -1;
+  }
+
+  .socials.cursorEff:hover::before {
+    opacity: 1;
   }
 
   .hireMe {
