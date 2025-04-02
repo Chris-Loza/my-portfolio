@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./sidebar.css";
 
 const Sidebar = () => {
+  const [applyBorder, setApplyBorder] = useState({
+    active: false,
+    button: "",
+  });
+
   return (
     <div className="sidebarMain">
       <div className="sidebar">
@@ -11,28 +16,84 @@ const Sidebar = () => {
           </div>
           <div className="categories">
             <div className="buttons">
-              <a href="">
+              <a
+                className={`${
+                  applyBorder.active && applyBorder.button === "About"
+                    ? "border"
+                    : ""
+                }`}
+                href=""
+                onClick={(e) => {
+                  e.preventDefault();
+                  setApplyBorder({
+                    active: true,
+                    button: "About",
+                  });
+                }}
+              >
                 <img
                   src="../../../../Images/AboutEEEEEEFill.svg"
                   alt="About Icon"
                 />
                 <p>About</p>
               </a>
-              <a href="">
+              <a
+                className={`${
+                  applyBorder.active && applyBorder.button === "Skills"
+                    ? "border"
+                    : ""
+                }`}
+                href=""
+                onClick={(e) => {
+                  e.preventDefault();
+                  setApplyBorder({
+                    active: true,
+                    button: "Skills",
+                  });
+                }}
+              >
                 <img
                   src="../../../../Images/SkillsEEEEEEFill.png"
                   alt="Skills Icon"
                 />
                 <p>Skills</p>
               </a>
-              <a href="">
+              <a
+                className={`${
+                  applyBorder.active && applyBorder.button === "Projects"
+                    ? "border"
+                    : ""
+                }`}
+                href=""
+                onClick={(e) => {
+                  e.preventDefault();
+                  setApplyBorder({
+                    active: true,
+                    button: "Projects",
+                  });
+                }}
+              >
                 <img
                   src="../../../../Images/ProjectsEEEEEEFill.png"
                   alt="Projects Icon"
                 />
                 <p>Projects</p>
               </a>
-              <a href="">
+              <a
+                className={`${
+                  applyBorder.active && applyBorder.button === "Education"
+                    ? "border"
+                    : ""
+                }`}
+                href=""
+                onClick={(e) => {
+                  e.preventDefault();
+                  setApplyBorder({
+                    active: true,
+                    button: "Education",
+                  });
+                }}
+              >
                 <img
                   src="../../../../Images/EducationEEEEEEFill.png"
                   alt="Education Icon"
