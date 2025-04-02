@@ -85,7 +85,6 @@ const Sidebar = () => {
       </div>
       <div className="hireMe">
         <div className="textAndImageContainer">
-          <p>*</p>
           <p>Hire Me</p>
         </div>
       </div>
