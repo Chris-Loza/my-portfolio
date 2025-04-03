@@ -23,9 +23,38 @@
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-radius: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    gap: 2rem;
+
+    .category {
+      border: 1px solid white;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* .about {
+    }
+
+    .skills {
+    }
+
+    .projects {
+    }
+
+    .education {
+    } */
+  }
+
+  .contentWindow::-webkit-scrollbar {
+    display: none;
   }
 
   .contentWindowBackground {
