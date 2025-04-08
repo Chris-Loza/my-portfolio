@@ -57,7 +57,25 @@ const Content = () => {
           </div>
         </div>
         <div className="projects category">Projects</div>
-        <div className="education category">Education</div>
+        <div className="education category">
+          <div className="myEducation">
+            <p>Education</p>
+          </div>
+          <div className="institutions">
+            <div className="vvc institution">
+              <p>VVC</p>
+              <div className="degrees">A.S</div>
+            </div>
+            <div className="cpp institution">
+              <p>CPP</p>
+              <div className="degrees">B.S</div>
+            </div>
+            <div className="certifications institution">
+              <p>Certificates</p>
+              <div className="certificates">Cert</div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="contentWindowBackground">
         <img
