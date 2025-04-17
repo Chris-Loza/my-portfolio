@@ -63,16 +63,34 @@ const Content = () => {
           </div>
           <div className="institutions">
             <div className="vvc institution">
-              <p>VVC</p>
-              <div className="degrees">A.S</div>
+              <p className="institutionTitle">Victor Valley College - 3.6 GPA</p>
+              <div className="degrees">
+                <p>Certificate of Acheivement, Programming 1 - June 2024</p>
+                <p>Certificate of Acheivement, Web Authoring - June 2024</p>
+                <p>
+                  Associate of Science, Computer Information Systems - August
+                  2024
+                </p>
+              </div>
             </div>
             <div className="cpp institution">
-              <p>CPP</p>
-              <div className="degrees">B.S</div>
+              <p className="institutionTitle">California State Polytechnic University, Pomona - 3.3 GPA</p>
+              <div className="degrees">
+                <p>Bachelor of Science, Chemical Engineering - December 2021</p>
+              </div>
             </div>
             <div className="certifications institution">
-              <p>Certificates</p>
-              <div className="certificates">Cert</div>
+              <p className="institutionTitle">Other</p>
+              <div className="certificates">
+                <p>
+                  Professional Certificate, Meta Front-End Developer - Meta,
+                  June 2024
+                </p>
+                <p>
+                  Developer Certificate, Responsive Web Design - freeCodeCamp,
+                  May 2024
+                </p>
+              </div>
             </div>
           </div>
         </div>
