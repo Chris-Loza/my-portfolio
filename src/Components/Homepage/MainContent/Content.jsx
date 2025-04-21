@@ -57,7 +57,69 @@ const Content = () => {
               </div>
             </div>
           </div>
-          <div className="projects category">Projects</div>
+          <div className="projects category">
+            <div className="myProjects">
+              <p>Projects</p>
+            </div>
+            <div className="projectsContainer">
+              <div className="project">
+                <p className="projectTitle">Yugioh Inventory App</p>
+                <p className="projectDesc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto asperiores animi possimus cum commodi officiis
+                  rerum rem blanditiis, quam assumenda, unde consectetur
+                  laborum! Totam non aut asperiores aspernatur tempore earum!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, neque similique officiis reiciendis odit maxime illum
+                  reprehenderit accusamus ab libero consequatur in doloremque
+                  impedit blanditiis, dolores ipsa beatae. Quia, suscipit!
+                </p>
+                <p>
+                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                    View Project
+                  </a>
+                </p>
+              </div>
+              <div className="project">
+                <p className="projectTitle">Memorization Game</p>
+                <p className="projectDesc">
+                  {" "}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto asperiores animi possimus cum commodi officiis
+                  rerum rem blanditiis, quam assumenda, unde consectetur
+                  laborum! Totam non aut asperiores aspernatur tempore earum!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, neque similique officiis reiciendis odit maxime illum
+                  reprehenderit accusamus ab libero consequatur in doloremque
+                  impedit blanditiis, dolores ipsa beatae. Quia, suscipit!
+                </p>
+                <p>
+                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                    View Project
+                  </a>
+                </p>
+              </div>
+              <div className="project">
+                <p className="projectTitle">Recipe Book</p>
+                <p className="projectDesc">
+                  {" "}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto asperiores animi possimus cum commodi officiis
+                  rerum rem blanditiis, quam assumenda, unde consectetur
+                  laborum! Totam non aut asperiores aspernatur tempore earum!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minus, neque similique officiis reiciendis odit maxime illum
+                  reprehenderit accusamus ab libero consequatur in doloremque
+                  impedit blanditiis, dolores ipsa beatae. Quia, suscipit!
+                </p>
+                <p>
+                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                    View Project
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="education category">
             <div className="myEducation">
               <p>Education</p>
