@@ -65,17 +65,19 @@ const Content = () => {
               <div className="project">
                 <p className="projectTitle">Yugioh Inventory App</p>
                 <p className="projectDesc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Architecto asperiores animi possimus cum commodi officiis
-                  rerum rem blanditiis, quam assumenda, unde consectetur
-                  laborum! Totam non aut asperiores aspernatur tempore earum!
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus, neque similique officiis reiciendis odit maxime illum
-                  reprehenderit accusamus ab libero consequatur in doloremque
-                  impedit blanditiis, dolores ipsa beatae. Quia, suscipit!
+                  This project is an Inventory and Wishlist tracking application
+                  developed for the trading card game <i>Yu-Gi-Oh!</i>. It
+                  allows users to create an account, track the cards they own,
+                  and mark the ones they want. The app was built with React
+                  using Vite, with Firebase handling authentication and database
+                  storage. It is deployed via Vercel.
                 </p>
-                <p>
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                <p className="projectLink">
+                  <a
+                    href="https://ygoinventory.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Project
                   </a>
                 </p>
@@ -83,17 +85,14 @@ const Content = () => {
               <div className="project">
                 <p className="projectTitle">Memorization Game</p>
                 <p className="projectDesc">
-                  {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Architecto asperiores animi possimus cum commodi officiis
-                  rerum rem blanditiis, quam assumenda, unde consectetur
-                  laborum! Totam non aut asperiores aspernatur tempore earum!
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus, neque similique officiis reiciendis odit maxime illum
-                  reprehenderit accusamus ab libero consequatur in doloremque
-                  impedit blanditiis, dolores ipsa beatae. Quia, suscipit!
+                  This project is a simple interpretation of the game{" "}
+                  <i>Simon Says</i>. The user must memorize the sequence of
+                  flashing colors and then repeat them in the correct order.
+                  With each round, an additional color is added to the sequence.
+                  The app was built with React using Vite and deployed via
+                  Vercel.
                 </p>
-                <p>
+                <p className="projectLink">
                   <a href="http://" target="_blank" rel="noopener noreferrer">
                     View Project
                   </a>
@@ -102,17 +101,13 @@ const Content = () => {
               <div className="project">
                 <p className="projectTitle">Recipe Book</p>
                 <p className="projectDesc">
-                  {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Architecto asperiores animi possimus cum commodi officiis
-                  rerum rem blanditiis, quam assumenda, unde consectetur
-                  laborum! Totam non aut asperiores aspernatur tempore earum!
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus, neque similique officiis reiciendis odit maxime illum
-                  reprehenderit accusamus ab libero consequatur in doloremque
-                  impedit blanditiis, dolores ipsa beatae. Quia, suscipit!
+                  This project is a recipe card maker that tracks ingredients
+                  and nutritional information for each user-created recipe.
+                  Users can create as many cards as they'd like for each time of
+                  day, with an additional “Snacks” tab. The app was built with
+                  React using Vite and deployed via Vercel.
                 </p>
-                <p>
+                <p className="projectLink">
                   <a href="http://" target="_blank" rel="noopener noreferrer">
                     View Project
                   </a>
