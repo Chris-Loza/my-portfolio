@@ -93,7 +93,11 @@ const Content = () => {
                   Vercel.
                 </p>
                 <p className="projectLink">
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://memorization-game.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Project
                   </a>
                 </p>
@@ -108,7 +112,11 @@ const Content = () => {
                   React using Vite and deployed via Vercel.
                 </p>
                 <p className="projectLink">
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://recipe-book-cl.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Project
                   </a>
                 </p>
