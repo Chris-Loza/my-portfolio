@@ -170,7 +170,8 @@ const Content = () => {
       </div>
       <div className="contentWindowBackground">
         <img
-          src="../../../../public/Images/philipp-pilz-AOhBMkQlzgM-unsplash.jpg"
+          // src="../../../../public/Images/philipp-pilz-AOhBMkQlzgM-unsplash.jpg"
+          src="../../../../public/Images/dark-minimalist-watch-tower.jpg"
           alt=""
         />
       </div>
