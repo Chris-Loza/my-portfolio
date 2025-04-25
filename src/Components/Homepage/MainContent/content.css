@@ -158,6 +158,13 @@
             flex-direction: column;
             align-items: center;
             gap: 0.5rem;
+            background: linear-gradient(
+              135deg,
+              rgba(255, 255, 255, 0.05),
+              rgba(255, 255, 255, 0.015)
+            );
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1);
 
             .projectTitle {
               padding: 0.5rem 0rem;
@@ -175,12 +182,6 @@
 
               a {
                 color: rgb(118, 171, 174);
-                /* color: rgb(144, 200, 203); */
-                /* color: rgb(150, 205, 208); */
-                /* color: rgb(170, 220, 225); */
-                /* color: rgb(180, 230, 235); */
-                /* color: rgb(190, 240, 245); */
-                /* color: #48A6A7; */
                 text-decoration: none;
               }
 
