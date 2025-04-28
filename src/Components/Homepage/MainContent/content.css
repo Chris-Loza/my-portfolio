@@ -152,7 +152,7 @@
           .project {
             border: 1px solid rgba(238, 238, 238, 0.75);
             border-radius: 1rem;
-            width: 31%;
+            width: 30%;
             height: 90%;
             display: flex;
             flex-direction: column;
@@ -189,6 +189,19 @@
                 color: rgb(190, 240, 245);
               }
             }
+          }
+
+          .project:hover {
+            width: 31%;
+            height: 92%;
+            transition: width 0.1s linear, height 0.1s linear;
+            background: rgba(170, 140, 120, 0.3);
+            background: linear-gradient(
+              135deg,
+              rgba(170, 140, 120, 0.75),
+              rgba(170, 140, 120, 0.5)
+            );
+            backdrop-filter: none;
           }
         }
       }
