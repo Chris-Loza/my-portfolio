@@ -202,6 +202,8 @@
               rgba(170, 140, 120, 0.5)
             );
             backdrop-filter: none;
+            border: 1px solid rgb(34, 40, 49);
+            box-shadow: 6px 8px 32px 6px rgba(0, 0, 0, 1);
           }
         }
       }
