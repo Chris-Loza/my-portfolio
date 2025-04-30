@@ -6,7 +6,26 @@ const Content = () => {
     <div className="mainContentMain">
       <div className="contentWindow">
         <div className="scrollArea">
-          <div className="about category">About</div>
+          <div className="about category">
+            <div className="aboutText">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                quis quibusdam totam? Dolore, a incidunt beatae quasi
+                repudiandae magni aut eaque adipisci iste dignissimos
+                consectetur saepe natus sapiente iure excepturi. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Unde provident, ab
+                autem exercitationem expedita fuga repellat officiis vero culpa
+                placeat molestiae, obcaecati sapiente voluptas! Autem maxime
+                vitae tempora? Placeat, neque!
+              </p>
+            </div>
+            <div className="aboutInfo">
+              <div className="imgContainer">
+                <img src="../../../../public/Images/dark-minimalist-watch-tower.jpg" alt="Profile Picture" />
+              </div>
+              <p>Christian Loza</p>
+            </div>
+          </div>
           <div className="skills category">
             <div className="mySkills">
               <p>My Skills</p>
