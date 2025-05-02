@@ -21,7 +21,10 @@ const Content = () => {
             </div>
             <div className="aboutInfo">
               <div className="imgContainer">
-                <img src="../../../../public/Images/dark-minimalist-watch-tower.jpg" alt="Profile Picture" />
+                <img
+                  src="../../../../public/Images/dark-minimalist-watch-tower.jpg"
+                  alt="Profile Picture"
+                />
               </div>
               <p>Christian Loza</p>
             </div>
@@ -100,6 +103,23 @@ const Content = () => {
                     View Project
                   </a>
                 </p>
+                <div className="hoverCard">
+                  <img
+                    src="../../../../public/Images/ygoAppPortfolioThumbnail2.png"
+                    alt="Yugioh App Thumbnail"
+                  />
+                  <div className="projectLinkContainer">
+                    <p className="projectLink">
+                      <a
+                        href="https://ygoinventory.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View Project
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </div>
               <div className="project">
                 <p className="projectTitle">Memorization Game</p>
@@ -120,6 +140,23 @@ const Content = () => {
                     View Project
                   </a>
                 </p>
+                <div className="hoverCard">
+                  <img
+                    src="../../../../public/Images/memorizationGamePortfolioThumbnail.png"
+                    alt="Memorization Game Thumbnail"
+                  />
+                  <div className="projectLinkContainer">
+                    <p className="projectLink">
+                      <a
+                        href="https://memorization-game.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View Project
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </div>
               <div className="project">
                 <p className="projectTitle">Recipe Book</p>
@@ -139,6 +176,23 @@ const Content = () => {
                     View Project
                   </a>
                 </p>
+                <div className="hoverCard">
+                  <img
+                    src="../../../../public/Images/recipeBookPortfolioThumbnail3.png"
+                    alt="Recipe Book Thumbnail"
+                  />
+                  <div className="projectLinkContainer">
+                    <p className="projectLink">
+                      <a
+                        href="https://recipe-book-cl.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View Project
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -191,7 +245,7 @@ const Content = () => {
         <img
           // src="../../../../public/Images/philipp-pilz-AOhBMkQlzgM-unsplash.jpg"
           src="../../../../public/Images/dark-minimalist-watch-tower.jpg"
-          alt=""
+          alt="content window background"
         />
       </div>
     </div>
