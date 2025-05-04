@@ -9,24 +9,23 @@ const Content = () => {
           <div className="about category">
             <div className="aboutText">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                quis quibusdam totam? Dolore, a incidunt beatae quasi
-                repudiandae magni aut eaque adipisci iste dignissimos
-                consectetur saepe natus sapiente iure excepturi. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Unde provident, ab
-                autem exercitationem expedita fuga repellat officiis vero culpa
-                placeat molestiae, obcaecati sapiente voluptas! Autem maxime
-                vitae tempora? Placeat, neque!
+                Hi, I’m Christian Loza, a front‑end developer who combines
+                clean, semantic HTML/CSS with modern JavaScript and React to
+                build fast, accessible web apps. I enjoy translating complex
+                ideas into intuitive interfaces and thrive on iterative
+                problem‑solving. My recent projects show my focus on responsive
+                design and smooth user experience. I’m currently looking for
+                opportunities where I can keep sharpening my craft and add to my
+                toolkit. Feel free to reach out if you’d like to collaborate!
               </p>
             </div>
             <div className="aboutInfo">
               <div className="imgContainer">
                 <img
-                  src="../../../../public/Images/dark-minimalist-watch-tower.jpg"
+                  src="../../../../public/Images/programmerAtDesk2.avif"
                   alt="Profile Picture"
                 />
               </div>
-              <p>Christian Loza</p>
             </div>
           </div>
           <div className="skills category">
