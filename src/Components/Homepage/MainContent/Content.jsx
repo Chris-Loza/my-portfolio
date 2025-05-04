@@ -1,12 +1,12 @@
 import React from "react";
 import "./content.css";
 
-const Content = () => {
+const Content = ({ refs }) => {
   return (
     <div className="mainContentMain">
       <div className="contentWindow">
         <div className="scrollArea">
-          <div className="about category">
+          <div className="about category" ref={refs.aboutRef}>
             <div className="aboutText">
               <p>
                 Hi, I’m Christian Loza, a front‑end developer who combines
@@ -28,7 +28,7 @@ const Content = () => {
               </div>
             </div>
           </div>
-          <div className="skills category">
+          <div className="skills category" ref={refs.skillsRef}>
             <div className="mySkills">
               <p>My Skills</p>
             </div>
@@ -78,7 +78,7 @@ const Content = () => {
               </div>
             </div>
           </div>
-          <div className="projects category">
+          <div className="projects category" ref={refs.projectsRef}>
             <div className="myProjects">
               <p>Projects</p>
             </div>
@@ -195,7 +195,7 @@ const Content = () => {
               </div>
             </div>
           </div>
-          <div className="education category">
+          <div className="education category" ref={refs.educationRef}>
             <div className="myEducation">
               <p>Education</p>
             </div>
@@ -242,7 +242,6 @@ const Content = () => {
       </div>
       <div className="contentWindowBackground">
         <img
-          // src="../../../../public/Images/philipp-pilz-AOhBMkQlzgM-unsplash.jpg"
           src="../../../../public/Images/dark-minimalist-watch-tower.jpg"
           alt="content window background"
         />

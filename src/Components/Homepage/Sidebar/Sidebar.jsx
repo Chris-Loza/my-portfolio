@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({ scrollToSection, refs }) => {
   const [applyBorder, setApplyBorder] = useState({
     active: false,
     button: "",
@@ -46,6 +46,7 @@ const Sidebar = () => {
                     active: true,
                     button: "About",
                   });
+                  scrollToSection(refs.aboutRef);
                 }}
               >
                 <img
@@ -67,6 +68,7 @@ const Sidebar = () => {
                     active: true,
                     button: "Skills",
                   });
+                  scrollToSection(refs.skillsRef);
                 }}
               >
                 <img
@@ -88,6 +90,7 @@ const Sidebar = () => {
                     active: true,
                     button: "Projects",
                   });
+                  scrollToSection(refs.projectsRef);
                 }}
               >
                 <img
@@ -109,6 +112,7 @@ const Sidebar = () => {
                     active: true,
                     button: "Education",
                   });
+                  scrollToSection(refs.educationRef);
                 }}
               >
                 <img
