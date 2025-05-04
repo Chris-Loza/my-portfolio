@@ -65,8 +65,8 @@
           justify-content: center;
           background: linear-gradient(
             135deg,
-            rgba(118, 171, 174, 0.5) 35%,
-            rgba(118, 171, 174, 0.75) 93%
+            rgba(118, 171, 174, 0.75) 35%,
+            rgba(118, 171, 174, 0.5) 93%
           );
           backdrop-filter: blur(10px);
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1);
