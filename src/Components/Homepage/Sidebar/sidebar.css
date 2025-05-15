@@ -149,6 +149,10 @@
     .title {
       flex: 1;
       align-items: end;
+
+      p {
+        font-size: 1.5rem;
+      }
     }
 
     .links {
