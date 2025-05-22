@@ -134,6 +134,7 @@ const Sidebar = ({ scrollToSection, refs }) => {
             href="https://www.linkedin.com/in/christianloza/"
             target="_blank"
             rel="noopener noreferrer"
+            title="LinkedIn"
           >
             <img
               src="../../../../Images/LinkedInEEEEEE.svg"
@@ -145,6 +146,7 @@ const Sidebar = ({ scrollToSection, refs }) => {
             href="https://github.com/Chris-Loza"
             target="_blank"
             rel="noopener noreferrer"
+            title="Github"
           >
             <img
               src="../../../../Images/WhiteGithubNoOutline.svg"
@@ -156,6 +158,7 @@ const Sidebar = ({ scrollToSection, refs }) => {
             href="../../../../Images/Resume032525.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            title="Resume"
           >
             <img
               src="../../../../Images/WhiteResumeFill.png"

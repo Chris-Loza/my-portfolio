@@ -2,6 +2,7 @@
   display: flex;
   width: 100vw;
   height: 100svh;
+  position: relative;
 
   .sidebarContainer {
     flex: 1;
@@ -9,5 +10,20 @@
 
   .contentContainer {
     flex: 6;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .homepage {
+    .sidebarContainer {
+      border-radius: 1rem 1rem 0rem 0rem;
+      height: 10%;
+      position: absolute;
+      z-index: 5;
+      width: 95%;
+      top: 3%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 }

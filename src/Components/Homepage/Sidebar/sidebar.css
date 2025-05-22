@@ -325,3 +325,89 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 768px) {
+  .sidebarMain {
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+
+    .sidebar {
+      width: 45%;
+      height: 80%;
+      flex-direction: row;
+
+      .categoriesContainer.cursorEff {
+        .title {
+          display: none;
+        }
+
+        .categories {
+          width: 100%;
+          height: 100%;
+          
+          .buttons {
+            justify-self: center;
+            height: 100%;
+            margin-top: 0rem;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 0.5rem;
+
+            a {
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              height: 80%;
+              
+              img {
+                width: 20px;
+              }
+              
+            }
+          }
+        }
+      }
+    }
+
+    .socials.cursorEff {
+      width: 30%;
+      height: 80%;
+      position: relative;
+
+      .title {
+        position: absolute;
+        display: none;
+      }
+
+      .links {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        align-items: center;
+
+        a {
+          justify-content: center;
+          height: 75%;
+          width: 25%;
+          padding: 0rem;
+          p {
+            display: none;
+          }
+        }
+
+        img {
+          width: 40px;
+        }
+      }
+    }
+    
+    .hireMe {
+      height: 80%;
+      width: 20%;
+    }
+  }
+}
