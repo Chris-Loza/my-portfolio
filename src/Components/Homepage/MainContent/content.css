@@ -594,7 +594,7 @@
         .projects {
           padding-top: 6rem;
           min-height: 56%;
-          
+
           .projectsContainer {
             .project {
               .projectTitle {
@@ -604,6 +604,82 @@
 
               .projectDesc {
                 font-size: 0.75rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .mainContentMain {
+    .contentWindow {
+      .scrollArea {
+        .about {
+          padding-top: 6rem;
+          .aboutText {
+            width: 95%;
+            height: 90%;
+
+            p {
+              font-size: 1.1rem;
+
+              &::first-letter {
+                font-size: 2rem;
+              }
+            }
+          }
+
+          .aboutInfo {
+            display: none;
+          }
+        }
+
+        .skills {
+          min-height: 100%
+        }
+
+        .projects {
+          min-height: 100%;
+
+          .projectsContainer {
+            height: 86%;
+            flex-direction: column;
+
+            .project {
+              width: 100%;
+              height: 100%;
+
+              .projectDesc {
+                font-size: 0.875rem;
+              }
+            }
+          }
+        }
+
+        .education {
+          min-height: 80%;
+          .institutions {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            .institution {
+              padding: 0.75rem 0rem;
+              .degrees {
+                p {
+                  font-size: 0.875rem;
+                }
+              }
+            }
+
+            .certifications {
+              padding: 0.5rem 0rem;
+
+              .institutionTitle {
+                padding-left: 1rem;
               }
             }
           }
