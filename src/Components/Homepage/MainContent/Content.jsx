@@ -6,6 +6,9 @@ const Content = ({ refs }) => {
     <div className="mainContentMain">
       <div className="contentWindow">
         <div className="scrollArea">
+          <div className="dummy category">
+            <div className="dummyText" ref={refs.dummyRef}><p>Dummy</p></div>
+          </div>
           <div className="about category" ref={refs.aboutRef}>
             <div className="aboutText">
               <p>

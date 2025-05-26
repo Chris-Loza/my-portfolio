@@ -21,7 +21,7 @@
       position: absolute;
       z-index: 5;
       width: 95%;
-      top: 3%;
+      top: 4%;
       left: 50%;
       transform: translateX(-50%);
     }
