@@ -651,16 +651,17 @@
             .project {
               width: 100%;
               height: 100%;
-
+              
               .projectDesc {
                 font-size: 0.875rem;
               }
             }
           }
         }
-
+        
         .education {
-          min-height: 80%;
+          justify-content: flex-start;
+          min-height: 69%;
           .institutions {
             display: flex;
             flex-direction: column;
@@ -710,6 +711,38 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mainContentMain {
+    .contentWindow {
+      .scrollArea {
+        .about {
+          .aboutText {
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+
+        .projects {
+          min-height: 110%;
+          .projectsContainer {
+            .project {
+              height: 90%;
+              .projectDesc {
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+
+        .education {
+          min-height: 80%;
         }
       }
     }
