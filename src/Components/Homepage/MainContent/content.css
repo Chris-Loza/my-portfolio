@@ -638,7 +638,7 @@
         }
 
         .skills {
-          min-height: 100%
+          min-height: 100%;
         }
 
         .projects {
@@ -680,6 +680,33 @@
 
               .institutionTitle {
                 padding-left: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .mainContentMain {
+    .contentWindow {
+      .scrollArea {
+        .about {
+          .aboutText {
+            height: 100%;
+          }
+        }
+
+        .skills {
+          .skillsContainer {
+            height: 80%;
+
+            .skill {
+              .imgContainer {
+                height: 5rem;
+                width: 5rem;
               }
             }
           }
