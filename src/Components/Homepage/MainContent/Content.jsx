@@ -7,7 +7,9 @@ const Content = ({ refs }) => {
       <div className="contentWindow">
         <div className="scrollArea">
           <div className="dummy category">
-            <div className="dummyText" ref={refs.dummyRef}><p>Dummy</p></div>
+            <div className="dummyText" ref={refs.dummyRef}>
+              <p>Dummy</p>
+            </div>
           </div>
           <div className="about category" ref={refs.aboutRef}>
             <div className="aboutText">
@@ -19,7 +21,10 @@ const Content = ({ refs }) => {
                 problem‑solving. My recent projects show my focus on responsive
                 design and smooth user experience. I’m currently looking for
                 opportunities where I can keep sharpening my craft and add to my
-                toolkit. Feel free to reach out if you’d like to collaborate!
+                toolkit.{" "}
+                <a href="mailto:christianloza99@gmail.com?subject=Hello Christian, I'd like to collaborate!" className="collabText">
+                  Feel free to reach out if you’d like to collaborate!
+                </a>
               </p>
             </div>
             <div className="aboutInfo">

@@ -170,7 +170,12 @@ const Sidebar = ({ scrollToSection, refs }) => {
       </div>
       <div className="hireMe">
         <div className="textAndImageContainer">
-          <p>Hire Me</p>
+          <a
+            href="mailto:christianloza99@gmail.com?subject=Hello Christian, I'd like to collaborate!"
+            className="collabText"
+          >
+            <p>Hire Me</p>
+          </a>
         </div>
       </div>
     </div>

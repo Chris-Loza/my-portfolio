@@ -84,6 +84,25 @@
               font-size: 4rem;
             }
           }
+
+          .collabText {
+            font-size: 2rem;
+            text-decoration: none;
+            color: inherit;
+            background: linear-gradient(
+              to right,
+              #0ff0b3,
+              #00f2fe,
+              #8e54e9,
+              #4776e6,
+              #43e97b
+            );
+            background-size: 200%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-animation 2.5s linear infinite;
+          }
         }
 
         .aboutInfo {
@@ -470,6 +489,12 @@
   }
 }
 
+@keyframes gradient-animation {
+  to {
+    background-position: 200%;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .mainContentMain {
     .contentWindow {
@@ -477,6 +502,10 @@
         .about {
           .aboutText {
             p {
+              font-size: 1.6rem;
+            }
+
+            .collabText {
               font-size: 1.6rem;
             }
           }
@@ -498,6 +527,10 @@
               &::first-letter {
                 font-size: 3.5rem;
               }
+            }
+
+            .collabText {
+              font-size: 1.35rem;
             }
           }
         }
@@ -582,6 +615,10 @@
                 font-size: 3rem;
               }
             }
+
+            .collabText {
+              font-size: 1.25rem;
+            }
           }
         }
 
@@ -630,6 +667,10 @@
                 font-size: 2rem;
               }
             }
+
+            .collabText {
+              font-size: 1.1rem;
+            }
           }
 
           .aboutInfo {
@@ -651,14 +692,14 @@
             .project {
               width: 100%;
               height: 100%;
-              
+
               .projectDesc {
                 font-size: 0.875rem;
               }
             }
           }
         }
-        
+
         .education {
           justify-content: flex-start;
           min-height: 69%;
@@ -724,6 +765,10 @@
         .about {
           .aboutText {
             p {
+              font-size: 1rem;
+            }
+
+            .collabText {
               font-size: 1rem;
             }
           }
