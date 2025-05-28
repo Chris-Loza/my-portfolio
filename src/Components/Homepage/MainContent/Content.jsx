@@ -30,7 +30,7 @@ const Content = ({ refs }) => {
             <div className="aboutInfo">
               <div className="imgContainer">
                 <img
-                  src="../../../../public/Images/programmerAtDesk2.avif"
+                  src="../../../../Images/programmerAtDesk2.avif"
                   alt="Profile Picture"
                 />
               </div>
