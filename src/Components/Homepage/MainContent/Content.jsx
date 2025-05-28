@@ -112,7 +112,7 @@ const Content = ({ refs }) => {
                 </p>
                 <div className="hoverCard">
                   <img
-                    src="../../../../public/Images/ygoAppPortfolioThumbnail2.png"
+                    src="../../../../Images/ygoAppPortfolioThumbnail2.png"
                     alt="Yugioh App Thumbnail"
                   />
                   <div className="projectLinkContainer">
@@ -149,7 +149,7 @@ const Content = ({ refs }) => {
                 </p>
                 <div className="hoverCard">
                   <img
-                    src="../../../../public/Images/memorizationGamePortfolioThumbnail.png"
+                    src="../../../../Images/memorizationGamePortfolioThumbnail.png"
                     alt="Memorization Game Thumbnail"
                   />
                   <div className="projectLinkContainer">
@@ -185,7 +185,7 @@ const Content = ({ refs }) => {
                 </p>
                 <div className="hoverCard">
                   <img
-                    src="../../../../public/Images/recipeBookPortfolioThumbnail3.png"
+                    src="../../../../Images/recipeBookPortfolioThumbnail3.png"
                     alt="Recipe Book Thumbnail"
                   />
                   <div className="projectLinkContainer">
@@ -250,7 +250,7 @@ const Content = ({ refs }) => {
       </div>
       <div className="contentWindowBackground">
         <img
-          src="../../../../public/Images/dark-minimalist-watch-tower.jpg"
+          src="../../../../Images/dark-minimalist-watch-tower.jpg"
           alt="content window background"
         />
       </div>
