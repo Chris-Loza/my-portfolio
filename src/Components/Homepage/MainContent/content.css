@@ -87,15 +87,14 @@
 
           .collabText {
             font-size: 2rem;
-            text-decoration: none;
             color: inherit;
             background: linear-gradient(
               to right,
-              #0ff0b3,
-              #00f2fe,
-              #8e54e9,
-              #4776e6,
-              #43e97b
+              #5c0a0a,
+              #8b1e1e,
+              #c0392b,
+              #e74c3c,
+              #f39c12
             );
             background-size: 200%;
             background-clip: text;
