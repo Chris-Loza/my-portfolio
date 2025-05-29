@@ -155,7 +155,7 @@ const Sidebar = ({ scrollToSection, refs }) => {
             <p>GitHub</p>
           </a>
           <a
-            href="../../../../Images/Resume032525.pdf"
+            href="../../../../Images/Resume052825.pdf"
             target="_blank"
             rel="noopener noreferrer"
             title="Resume"
