@@ -792,3 +792,39 @@
     }
   }
 }
+
+@media only screen and (max-height: 575px) {
+  .mainContentMain {
+    .contentWindow {
+      .scrollArea {
+        .about {
+          min-height: 77%;
+        }
+
+        .projects {
+          min-height: 136%;
+
+          .projectsContainer {
+            height: 86%;
+            gap: 0.5rem;
+
+            .project {
+              .projectDesc {
+                font-size: 0.85rem;
+              }
+            }
+          }
+        }
+
+        .skills {
+          min-height: 150%;
+        }
+
+        .education {
+          padding-top: 6rem;
+          min-height: 100%;
+        }
+      }
+    }
+  }
+}
