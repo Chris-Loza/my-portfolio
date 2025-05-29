@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./homepage.css";
 import Sidebar from "./Sidebar/Sidebar";
 import Content from "./MainContent/Content";
@@ -14,6 +14,10 @@ const Homepage = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  useEffect(() => {
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
   return (
     <div className="homepage">
       <div className="sidebarContainer">
@@ -23,7 +27,9 @@ const Homepage = () => {
         />
       </div>
       <div className="contentContainer">
-        <Content refs={{ dummyRef, aboutRef, skillsRef, projectsRef, educationRef }} />
+        <Content
+          refs={{ dummyRef, aboutRef, skillsRef, projectsRef, educationRef }}
+        />
       </div>
     </div>
   );
